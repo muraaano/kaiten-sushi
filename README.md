@@ -16,6 +16,11 @@ cargo install kaiten-sushi
 curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git Samemura/kaiten-sushi
 ```
 
+if you already installed once and would update, remove installed file then try install again.
+```
+rm ~/.cargo/bin/kaiten-sushi
+```
+
 ## How to use
 
 Kaiten-sushi(回転すし)はネタを渡すと、ランダムに寿司を提供してくれます。
