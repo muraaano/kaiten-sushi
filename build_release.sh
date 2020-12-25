@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET=10.15
 TARGET=x86_64-apple-darwin
 # TODO please change tag version everytime
-tag="v0.1.0"
+tag="v0.2.0"
 name="kaiten-sushi-$tag-$TARGET"
 
 cargo build --release --target $TARGET
