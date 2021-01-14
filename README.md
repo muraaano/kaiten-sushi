@@ -12,6 +12,8 @@ cargo install kaiten-sushi
 
 ### Direct install
 
+Need rustc.
+
 ```bash
 curl -LSfs https://japaric.github.io/trust/install.sh | sh -s -- --git Samemura/kaiten-sushi
 ```
@@ -26,19 +28,18 @@ rm ~/.cargo/bin/kaiten-sushi
 Kaiten-sushi(回転すし)はネタを渡すと、ランダムに寿司を提供してくれます。
 
 ```
-% kaiten-sushi hamurin soncho mochi jiro kenchan masa yoshi pikasigu koyacchi
+% kaiten-sushi maguro tamago engawa kappa ikura salmon uni hamachi
 
 へい　らっしゃい！
 
-1皿目は、kenchan
-2皿目は、masa
-3皿目は、jiro
-4皿目は、pikasigu
-5皿目は、koyacchi
-6皿目は、yoshi
-7皿目は、mochi
-8皿目は、hamurin
-9皿目は、soncho
+1皿目は、tamago
+2皿目は、hamachi
+3皿目は、maguro
+4皿目は、kappa
+5皿目は、engawa
+6皿目は、uni
+7皿目は、ikura
+8皿目は、salmon
 
 おあいそ！
 
